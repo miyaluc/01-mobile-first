@@ -58,9 +58,14 @@
   .icon-menu {
     display:none;
   }
-  .tab {
-    display:inline-grid;
-  }
+  .main-nav ul {
+   display: block;
+   list-style: none;
+ }
+  .main-nav li {
+   float: right;
+   padding: .8em .8em;
+ }
 }
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
